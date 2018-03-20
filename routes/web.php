@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@showHome');
+Route::get('/contact', 'PagesController@showContact');
+Route::Post('/sendemail', 'PagesController@contactform');
+
+
