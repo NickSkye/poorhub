@@ -80,37 +80,6 @@ html {
     width: 101% !important;
 }
 
-.orangedot{
-    //background-color: orangered;
-    width: 1px;
-    height: 1px;
-    opacity: 0.5;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 32323;
-    transition: 3s zoom ease-in-out;
-
-    animation:myfirst 0.3s;
-    -moz-animation:myfirst 0.3s infinite; /* Firefox */
-    -webkit-animation:myfirst 0.3s infinite; /* Safari and Chrome */
-}
-
-
-@-moz-keyframes myfirst /* Firefox */
-{
-    0%   {background:red;}
-    50%  {background:orangered;}
-    100%   {background:red;}
-}
-
-@-webkit-keyframes myfirst /* Firefox */
-{
-    0%   {background:red;}
-    50%  {background:orangered;}
-    100%   {background:red;}
-}
-
 
 .page-generic {
 
@@ -438,61 +407,6 @@ footer:hover {
     text-align: center;
 }
 
-#section05 a span {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    -webkit-animation: sdb05 1.5s infinite;
-    animation: sdb05 1.5s infinite;
-    box-sizing: border-box;
-}
-@-webkit-keyframes sdb05 {
-    0% {
-        -webkit-transform: rotate(-45deg) translate(0, 0);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-        opacity: 0;
-    }
-}
-@keyframes sdb05 {
-    0% {
-        transform: rotate(-45deg) translate(0, 0);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: rotate(-45deg) translate(-20px, 20px);
-        opacity: 0;
-    }
-}
-
-#section05 a {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-
-
-
-    box-sizing: border-box;
-}
-
 .padding-lr{
     padding-left: 50px !important;
     padding-right: 50px !important;
@@ -507,61 +421,6 @@ footer:hover {
 }
 
 
-.parallax {
-    /* The image used */
-
-    &.parazero {
-        background-image: url("/images/snow_mount.jpg");
-        min-height: 900px;
-    }
-    &.parazerotwo {
-        background-image: url("/images/mountaingif.gif");
-        min-height: 900px;
-    }
-    &.parazerothree {
-        background-image: url("/images/islandgif.gif");
-        min-height: 900px;
-    }
-    &.paraone {
-        background-image: url("/images/paralaxtop.jpg");
-
-    }
-    &.paratwo {
-        //background-image: url("/images/paralaxsecond.jpg");
-        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-        min-height: 300px;
-    }
-    &.parathree {
-       // background-image: url("/images/paralaxthird.jpg");
-        background: white;
-    }
-    &.parafour {
-        //background-image: url("/images/oceansky.jpg");
-        //min-height: 800px;
-        background: white;
-
-    }
-    &.parafive {
-        background-image: url("/images/parafish.jpg");
-        min-height: 800px;
-    }
-    &.parasix {
-        background-image: url("/images/oceansky.jpg");
-        min-height: 800px;
-    }
-
-    /* Set a specific height */
-    min-height: 300px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    @media (max-width: 767px){
-        background-attachment: unset;
-    }
-}
 
 .bottom-left {
     position: absolute;
