@@ -146,6 +146,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        DougSisk\CountryState\CountryStateServiceProvider::class,
 
         /*
          * Package Service Providers...
