@@ -43,6 +43,21 @@ html {
   font-size: 14px;
   height: 29px;
   padding: 5px;
+  margin-bottom: 30px;
+}
+
+.location p {
+  color: white;
+  font-size: 14pt;
+}
+
+.location button {
+  height: 29px;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .sidenav {

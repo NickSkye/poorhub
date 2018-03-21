@@ -54,6 +54,23 @@ html {
         font-size: 14px;
         height: 29px;
         padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        color: white;
+        font-size: 14pt;
+    }
+
+    button{
+        height: 29px;
+        font-size: 14px;
+        color: black;
+        background-color: white;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px;
     }
 }
 //
