@@ -4,7 +4,10 @@
     <div class="container-fluid all-centered">
         <div class="row text-center">
             <div class="col-sm-2 sidenav left">
-                <h1>poorHUB</h1>
+                <div class="hub">
+                    <span contenteditable="true">Poor</span>
+                    <span contenteditable="true">hub</span>
+                </div>
             </div>
             <div class="col-sm-8">
 

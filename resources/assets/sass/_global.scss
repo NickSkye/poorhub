@@ -73,6 +73,33 @@ html {
         padding: 5px;
     }
 }
+
+.hub {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: 0.5s all ease-in-out;
+    @media (max-width: 576px){
+        font-size: 9vw;
+    }
+
+}
+
+.hub span:nth-child(2) {
+    background: #FF9900;
+    color: #000000;
+    border-radius: 1vw;
+    padding: 0 1vw 1vw 1vw;
+    display: inline-block;
+}
 //
 //.shadowdiv {
 //    //-webkit-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
