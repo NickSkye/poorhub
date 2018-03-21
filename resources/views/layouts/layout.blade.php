@@ -48,7 +48,7 @@
             var latlon = position.coords.latitude + "," + position.coords.longitude;
             var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
                 +latlon+"&zoom=14&size=400x300&key=AIzaSyARChXe0UlLc3ylgjsBMES3Cuj39c_bgmA";
-            document.getElementById("mapholder").setAttribute("src", "img_url") ;
+            document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
         }
         //To use this code on your website, get a free API key from Google.
         //Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
