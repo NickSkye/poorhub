@@ -22,7 +22,7 @@
                     <p id="demo">Or Click The Button To Select Your Current Location</p>
 
                     <button onclick="getLocation()">Select Current Location</button>
-                    <div id="mapholder"></div>
+                    <img src="" id="mapholder">
                 </div>
             </div>
 
