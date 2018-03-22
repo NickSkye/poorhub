@@ -3,7 +3,7 @@
 define("ROOTPATH", dirname(__FILE__));
 
 // Path to app folder.
-define("APPPATH", ROOTPATH."/php/");
+define("APPPATH", ROOTPATH."cms/php/");
 
 
 // Check if SSL enabled
