@@ -97,7 +97,7 @@ html {
 
 .sidenav {
   height: 100vh;
-  width: 160px;
+  width: 220px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -107,7 +107,7 @@ html {
 
 @media (max-width: 767px) {
   .sidenav {
-    position: fixed;
+    position: relative;
     width: 100%;
   }
 }
