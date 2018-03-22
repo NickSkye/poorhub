@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-7 col-scroll">
+            <div class="col-xs-7 col-scroll">
                 <h2>Standard PitchingMore Stats Glossary · Hide Partial · Show Minors · SHARE · CSV · PRE · LINK · More Tools
                     Minors
                     Game Logs [+]
@@ -74,10 +74,10 @@
                             @endforeach
                         </select>
 
-                        <p id="demo">Or Click The Button To Select Your Current Location</p>
+                        {{--<p id="demo">Or Click The Button To Select Your Current Location</p>--}}
 
-                        <button onclick="getLocation()">Select Current Location</button>
-                        <div id="mapholder"></div>
+                        {{--<button onclick="getLocation()">Select Current Location</button>--}}
+                        {{--<div id="mapholder"></div>--}}
                     </div>
                 </div>
             </div>
