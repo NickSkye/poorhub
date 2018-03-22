@@ -2,9 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
     <head >
 
-
-
-
+        
         <meta name=“description” content=””/>
         <meta name=“keywords” content=“”/>
         <meta name="author" content="Intelliskye, LLC"/>
