@@ -3,7 +3,7 @@
 define("ROOTPATH", dirname(__FILE__));
 
 // Path to app folder.
-define("APPPATH", ROOTPATH."cms/php/");
+define("APPPATH", ROOTPATH."/php/");
 
 
 // Check if SSL enabled
@@ -21,7 +21,7 @@ $site_url = (SSL_ENABLED ? "https" : "http")
 define("SITEURL", $site_url);
 
 $config['app_url'] = SITEURL."/php/";
-$config['site_url'] = SITEURL."/";
+$config['site_url'] = SITEURL."/cms/";
 
 include ROOTPATH . '/includes/classes/AltoRouter.php';
 
