@@ -21,7 +21,7 @@ $site_url = (SSL_ENABLED ? "https" : "http")
 define("SITEURL", $site_url);
 
 $config['app_url'] = SITEURL."/php/";
-$config['site_url'] = SITEURL."/cms/";
+$config['site_url'] = SITEURL."/";
 
 include ROOTPATH . '/includes/classes/AltoRouter.php';
 
