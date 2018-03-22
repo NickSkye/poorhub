@@ -103,6 +103,8 @@ html {
 
 .col-scroll{
     overflow: scroll;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 //
 //.shadowdiv {
@@ -388,7 +390,7 @@ html {
 
     overflow-x: hidden;
     padding-top: 20px;
-    @media (max-width: 767px){
+    @media (max-width: 576px){
         position: relative;
         width: 100%;
     }

@@ -93,6 +93,8 @@ html {
 
 .col-scroll {
   overflow: scroll;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .sidenav {
@@ -105,7 +107,7 @@ html {
   padding-top: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .sidenav {
     position: relative;
     width: 100%;
