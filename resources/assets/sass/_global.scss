@@ -100,6 +100,10 @@ html {
     padding: 0 1vw 1vw 1vw;
     display: inline-block;
 }
+
+.col-scroll{
+    overflow: scroll;
+}
 //
 //.shadowdiv {
 //    //-webkit-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
