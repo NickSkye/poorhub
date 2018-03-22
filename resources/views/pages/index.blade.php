@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-8 col-scroll">
+            <div class="col-sm-7 col-scroll">
                 <h2>Standard PitchingMore Stats Glossary · Hide Partial · Show Minors · SHARE · CSV · PRE · LINK · More Tools
                     Minors
                     Game Logs [+]

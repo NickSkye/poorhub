@@ -105,6 +105,10 @@ html {
     overflow: scroll;
     margin-left: 250px;
     margin-right: 250px;
+    @media (max-width: 576px){
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 //
 //.shadowdiv {
