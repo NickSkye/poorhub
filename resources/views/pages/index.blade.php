@@ -5,8 +5,8 @@
         <div class="row text-center">
             <div class="col-sm-2 sidenav left">
                 <div class="hub">
-                    <span contenteditable="true">Poor</span>
-                    <span contenteditable="true">hub</span>
+                    <span>Poor</span>
+                    <span>hub</span>
                 </div>
             </div>
             <div class="col-sm-8">

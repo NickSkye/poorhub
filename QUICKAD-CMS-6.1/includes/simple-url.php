@@ -1,0 +1,34 @@
+<?php
+require_once('config.php');
+$link['INDEX']          = $config['site_url'];
+$link['INDEX_PAGE']     = $config['site_url'].'index.php';
+$link['INDEX1']         = $config['site_url'].'index1.php';
+$link['INDEX2']         = $config['site_url'].'index2.php';
+$link['MESSAGE']        = $config['site_url'].'message.php';
+$link['LOGIN']          = $config['site_url'].'login.php';
+$link['LOGOUT']         = $config['site_url'].'logout.php';
+$link['SIGNUP']         = $config['site_url'].'signup.php';
+$link['FORGOT']         = $config['site_url'].'forgot.php';
+$link['LISTING']        = $config['site_url'].'listing.php';
+$link['AD-DETAIL']      = $config['site_url'].'ad-detail.php';
+$link['POST-AD']        = $config['site_url'].'ad-post.php';
+$link['EDIT-AD']        = $config['site_url'].'ad-edit.php';
+$link['MYADS']          = $config['site_url'].'ad-my.php';
+$link['PENDINGADS']     = $config['site_url'].'ad-pending.php';
+$link['FAVADS']         = $config['site_url'].'ad-favourite.php';
+$link['HIDDENADS']      = $config['site_url'].'ad-hidden.php';
+$link['RESUBMITADS']    = $config['site_url'].'ad-resubmission.php';
+$link['DASHBOARD']      = $config['site_url'].'dashboard.php';
+$link['PROFILE']        = $config['site_url'].'profile.php';
+$link['ACCOUNT_SETTING'] = $config['site_url'].'account-setting.php';
+$link['REPORT']         = $config['site_url'].'report.php';
+$link['CONTACT']        = $config['site_url'].'contact.php';
+$link['SITEMAP']        = $config['site_url'].'sitemap.php';
+$link['COUNTRY']        = $config['site_url'].'countries.php';
+$link['FAQ']            = $config['site_url'].'faq.php';
+$link['FEEDBACK']       = $config['site_url'].'feedback.php';
+$link['COUNTRIES']      = $config['site_url'].'countries.php';
+$link['HTML']           = $config['site_url'].'html.php';
+$link['PAYMENT']        = $config['site_url'].'payment.php';
+$link['IPN']            = $config['site_url'].'ipn.php';
+?>
